@@ -1,30 +1,24 @@
 # Habit Tracker App
 
-A beautiful and feature-rich Flutter mobile application for tracking daily habits with reminders, progress visualization, and comprehensive statistics.
+A Flutter mobile application for tracking daily habits with reminders, progress visualization, and comprehensive statistics.
 
 ## Features
 
-### 🎯 Core Functionality
+### Core Functionality
 - **Habit Management**: Create, edit, and delete habits with detailed customization
 - **Progress Tracking**: Track daily completions with visual progress indicators
 - **Smart Reminders**: Customizable notification system with time and day selection
 - **Streak Tracking**: Monitor current and longest streaks for motivation
 - **Statistics Dashboard**: Comprehensive analytics with charts and insights
 
-### 🎨 Beautiful Design
-- **Modern UI**: Clean, intuitive interface with Material Design principles
-- **Customizable Colors**: 10+ color options for personalizing habits
-- **Icon Selection**: 30+ icons to represent different habit types
-- **Smooth Animations**: Delightful micro-interactions and transitions
-- **Responsive Layout**: Optimized for different screen sizes
 
-### 📊 Analytics & Insights
+###  Analytics & Insights
 - **Progress Charts**: Visual representation of weekly progress
 - **Category Breakdown**: Pie charts showing habit distribution
 - **Streak Leaderboard**: Track and compare habit performance
 - **Completion Statistics**: Detailed completion history and trends
 
-### 🔔 Smart Notifications
+###  Smart Notifications
 - **Customizable Timing**: Set specific reminder times for each habit
 - **Day Selection**: Choose which days to receive reminders
 - **Persistent Notifications**: Reliable reminder delivery
@@ -32,13 +26,13 @@ A beautiful and feature-rich Flutter mobile application for tracking daily habit
 
 ## Technical Features
 
-### 🏗️ Architecture
+###  Architecture
 - **Provider State Management**: Clean separation of concerns
 - **SQLite Database**: Local data persistence with efficient queries
 - **Modular Design**: Well-organized code structure with reusable components
 - **Error Handling**: Comprehensive error management and user feedback
 
-### 📱 Platform Support
+###  Platform Support
 - **Android**: Full feature support with native notifications
 - **iOS**: Compatible with iOS notification system
 - **Cross-Platform**: Single codebase for both platforms
@@ -81,32 +75,6 @@ flutter build apk --release
 flutter build appbundle --release
 ```
 
-## Project Structure
-
-```
-lib/
-├── main.dart                 # App entry point
-├── models/                   # Data models
-│   └── habit.dart           # Habit and completion models
-├── providers/               # State management
-│   ├── habit_provider.dart  # Habit state management
-│   └── notification_provider.dart # Notification state
-├── screens/                 # UI screens
-│   ├── home_screen.dart     # Main dashboard
-│   ├── add_habit_screen.dart # Create new habits
-│   ├── habit_detail_screen.dart # Habit details and history
-│   └── statistics_screen.dart # Analytics dashboard
-├── widgets/                 # Reusable UI components
-│   ├── habit_card.dart      # Habit display card
-│   ├── progress_chart.dart  # Progress visualization
-│   ├── streak_widget.dart   # Streak tracking
-│   └── ...                  # Other UI components
-├── database/                # Data persistence
-│   └── database_helper.dart # SQLite operations
-└── utils/                   # Utilities
-    ├── app_colors.dart      # Color scheme
-    └── notification_service.dart # Notification handling
-```
 
 ## Key Dependencies
 
@@ -142,50 +110,10 @@ lib/
 4. Review streak leaderboard
 5. Analyze category breakdown
 
-## Customization
 
-### Adding New Habit Categories
-1. Update `HabitCategory` enum in `models/habit.dart`
-2. Add corresponding icon and name in `widgets/category_selector.dart`
 
-### Modifying Color Scheme
-1. Update colors in `utils/app_colors.dart`
-2. Add new colors to `habitColors` list for habit customization
-
-### Adding New Icons
-1. Add icon names to `icons` list in `widgets/icon_selector.dart`
-2. Implement corresponding `IconData` in `_getIconData()` method
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- Flutter team for the amazing framework
-- Material Design for design inspiration
-- Open source community for various packages used
-
-## Support
-
-For support, please create an issue in the repository.
 
 ## Screenshots
-
-_Add screenshots of your app here after taking some on your device_
-
----
-
-**Happy Habit Building! 🚀**
-
-Made with ❤️ using Flutter
+![App Presentation ](https://github.com/user-attachments/assets/ac176ad5-f9c6-45ff-97af-029413d457dc)
 
 
