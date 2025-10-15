@@ -86,29 +86,7 @@ flutter build appbundle --release
 - **permission_handler**: Permission management
 - **timezone**: Timezone handling for notifications
 
-## Usage Guide
 
-### Creating a Habit
-1. Tap the "+" button on the home screen
-2. Fill in habit details (title, description, category)
-3. Set frequency (daily, weekly, monthly)
-4. Configure reminder time and days
-5. Choose target count and unit (e.g., "8 glasses")
-6. Select color and icon
-7. Save the habit
-
-### Tracking Progress
-1. View habits on the home screen
-2. Tap "Complete" to mark a habit as done
-3. For multi-count habits, track progress throughout the day
-4. View detailed progress in the habit detail screen
-
-### Viewing Statistics
-1. Navigate to the Statistics tab
-2. View overview metrics and trends
-3. Check individual habit progress
-4. Review streak leaderboard
-5. Analyze category breakdown
 
 
 
